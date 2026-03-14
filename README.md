@@ -1,19 +1,14 @@
 # m365-automation-powershell
-│
-├─ graph/
-│   Scripts related to Microsoft Graph API
-│
-├─ entra/
-│   Entra ID (Azure AD) administration scripts
-│
-├─ exchange/
-│   Exchange Online automation scripts
-│
-├─ intune/
-│   Intune / device management scripts
-│
-├─ bulk/
-│   Bulk user and group operations
-│
-└─ utils/
-    General utilities and helper scripts
+
+Repository for Microsoft 365 administration and automation using PowerShell and Microsoft Graph.
+
+## 📂 Project Structure
+
+```text
+m365-automation-powershell/
+├── 📂 graph/      # Microsoft Graph API SDK & REST scripts
+├── 📂 entra/      # Entra ID (Azure AD) identity management
+├── 📂 exchange/   # Exchange Online (EXO) automation
+├── 📂 intune/     # Intune / Endpoint Manager device management
+├── 📂 bulk/       # Bulk operations (CSV/JSON) for users & groups
+└── 📂 utils/      # Helper functions, logging, and auth wrappers
